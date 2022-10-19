@@ -11,7 +11,7 @@ export class Footer extends Component {
     return `
          <footer>
             <address>ISDI COders</address>
-            <p></p>
+         
         </footer>
         `;
   }

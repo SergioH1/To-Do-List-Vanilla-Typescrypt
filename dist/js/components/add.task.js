@@ -1,13 +1,13 @@
 import { Component } from './component.js';
 export class AddTask extends Component {
-    constructor(selector) {
-        super();
-        this.selector = selector;
-        this.template = this.createTemplate();
-        this.renderOuter(this.selector, this.template);
-    }
-    createTemplate() {
-        return `
+  constructor(selector) {
+    super();
+    this.selector = selector;
+    this.template = this.createTemplate();
+    this.renderOuter(this.selector, this.template);
+  }
+  createTemplate() {
+    return `
         <form>
             <div>
                 <input type="text" id="title" placeholder="Cuál es la tarea" required>
@@ -18,5 +18,5 @@ export class AddTask extends Component {
             <button type="submit">Guardar</button>
         </form>
         `;
-    }
+  }
 }
