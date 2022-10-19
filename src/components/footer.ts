@@ -9,10 +9,9 @@ export class Footer extends Component {
   }
   createTemplate() {
     return `
-         <footer>
-            <address>ISDI COders</address>
-         
-        </footer>
+      <footer>
+        <address>ISDI COders</address>
+      </footer>
         `;
   }
 }
